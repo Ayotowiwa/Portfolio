@@ -125,21 +125,28 @@ button:hover {
 .card {
   margin: 15px 15px 0px;
   padding-bottom: 15px;
-  height: 200px;
+  height: 450px;
   transition: 0.5s;
 }
 .card:hover {
   height: auto;
 }
 .card h3 {
-  margin-top: 20%;
+  margin-top: 75%;
 }
 .hidden {
   display: none;
 }
+.card:hover h3 {
+  margin-top: 15%;
+  transition: margin-top 1s;
+}
 .card:hover .hidden {
   display: block;
-  transition: 1s;
+  transition: display 1s;
+}
+.card:hover ~ .skills {
+  padding-bottom: 100px;
 }
 /* .card:hover  */
 
