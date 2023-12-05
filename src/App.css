@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 h1 {
@@ -231,4 +234,37 @@ textarea {
 .rightfooter,
 .leftfooter {
   text-align: left;
+}
+
+/* frontend page  */
+.front {
+  padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 100px;
+}
+.skillcontent {
+  display: none;
+}
+.skill-content {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.skill-content > * {
+  margin: 20px;
+}
+.skill-content button {
+  color: white;
+  border-radius: 0px;
+  width: 100%;
+  background-color: #8755ae;
+  text-align: center;
+}
+.skill-content button:hover {
+  background-color: #684086;
+}
+.skill-content img {
+  width: 100%;
+  height: auto;
 }

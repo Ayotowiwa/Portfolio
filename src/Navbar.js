@@ -27,7 +27,7 @@ function Navbar() {
         <div className={`collapse navbar-collapse ${collapsed ? "" : "show"}`}>
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a className="nav-link" href="#hero-section">
+              <a className="nav-link" href="./#hero-section">
                 Home
               </a>
             </li>

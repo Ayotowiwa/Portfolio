@@ -1,6 +1,6 @@
 import React from "react";
 import imageMe from "./imagesvg/mrme.png";
-// import CV_PDF from "./imagesvg/";
+import CV_PDF from "../src/disturbance.pdf";
 
 function AboutMe() {
   return (
@@ -14,7 +14,7 @@ function AboutMe() {
           passion for web design and love to create for web and mobile devices.
         </p>
 
-        <a href={CV_PDF} target="_blank" rel="noopener noreferrer" download>
+        <a href={CV_PDF} >
           <button className="lightbutton">View my CV</button>
         </a>
       </div>

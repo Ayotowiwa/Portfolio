@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Skills() {
   return (
@@ -17,7 +18,9 @@ function Skills() {
                   creative with creation of prototyping and animations for User
                   experience on the website
                 </p>
-                <button className="lightbutton">Check it out</button>
+                <a href="https://www.behance.net/Olatomide">
+                  <button className="lightbutton">Check it out</button>
+                </a>
               </div>
             </div>
           </div>
@@ -30,7 +33,9 @@ function Skills() {
                   frameworks and library including Bootstrap, react, react
                   native, angular
                 </p>
-                <button className="lightbutton">Check it out</button>
+                <Link to="./frontendpage">
+                  <button className="lightbutton">Check it out</button>
+                </Link>
               </div>
               <p></p>
             </div>

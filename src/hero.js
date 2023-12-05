@@ -8,7 +8,9 @@ function Hero() {
         <h2>Hi !</h2>
         <h1>I'm Atanniyi Emmanuel</h1>
         <p>A full-stack web developer</p>
-        <button>Visit my work</button>
+        <a href="#skill-section">
+          <button>Visit my work</button>
+        </a>
       </div>
     </div>
   );
